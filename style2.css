@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    background: linear-gradient(#224B0C ,#FEC260);
+    background-repeat: no-repeat;
+    background-image: url("chad.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 660px 700px;
+}
+
+#box1{
+    border: 6px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 25px;
+    background-color: #8758FF; 
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-left: 2px dotted;
+    border-right: 2px dashed;
+    
+    
+}
+#box2{
+    border: 6px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 25px;
+    background-color: #AF0171;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    border-left:  2px dotted;
+    border-right: 2px dashed;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius:  15px;
+    border-bottom-right-radius: 15px;
+}
