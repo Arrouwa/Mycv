@@ -1,0 +1,47 @@
+a:link{
+    color: blue;
+}
+a:active{
+    color:red;
+}
+a:visited{
+    color:purple;
+}
+a:hover{
+    color:red;
+}
+a.nav{
+    font-weight: bold;
+    text-decoration: none
+}
+a.nav:link, a.nav:active{
+    background-color: yellow;
+    color: red;
+
+}
+a.nav:link, a.nav:visited{
+    color: green;
+}
+.outer{
+    border: 2px solid black;
+    background-color: blueviolet;
+    padding: 14px;
+    margin: 40px;
+    font-size: small;
+
+}
+.inner{
+    border: 3px dotted red;
+    background-color: lightblue;
+    padding: 15px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: small;
+}
+body{
+    border: 4px solid blue;
+    padding: 26px;
+    background-color: crimson;
+}
+
