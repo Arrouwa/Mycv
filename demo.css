@@ -1,0 +1,141 @@
+.setting-box {
+  background: #fff;
+  border: 5px solid #888;
+  color: #666;
+  font-size: 13px;
+  width: 215px;
+  position: fixed;
+  right: -215px;
+  top: 98px;
+  z-index: 9999;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
+  .setting-box.open {
+    right: 0; }
+  .setting-box .label {
+    color: #fff;
+    padding: 7px 0;
+    background: #888;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0; }
+  .setting-box .open-close-ear {
+    position: absolute;
+    background: #eeeeee;
+    height: 38px;
+    width: 38px;
+    text-align: center;
+    border: 1px solid #d0d0d0;
+    border-right: none;
+    left: -43px;
+    top: -5px;
+    cursor: pointer;
+    line-height: 48px; }
+    .setting-box .open-close-ear i {
+      font-size: 26px;
+      color: #666; }
+  .setting-box .theme-choose-list-container ul,
+  .setting-box .color-choose-list-container ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .setting-box .theme-choose-list-container ul li,
+    .setting-box .color-choose-list-container ul li {
+      border-bottom: 1px solid #eee;
+      padding: 8px 8px 2px 8px;
+      position: relative;
+      cursor: pointer;
+      -moz-transition: 0.5s;
+      -o-transition: 0.5s;
+      -webkit-transition: 0.5s;
+      transition: 0.5s; }
+      .setting-box .theme-choose-list-container ul li.active,
+      .setting-box .color-choose-list-container ul li.active {
+        background-color: #f0f0f0; }
+        .setting-box .theme-choose-list-container ul li.active:after,
+        .setting-box .color-choose-list-container ul li.active:after {
+          font-family: 'LineAwesome';
+          position: absolute;
+          top: 8px;
+          right: 10px;
+          content: "\f17b";
+          font-size: 16px;
+          font-weight: bold; }
+      .setting-box .theme-choose-list-container ul li div,
+      .setting-box .color-choose-list-container ul li div {
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        border-radius: 3px; }
+        .setting-box .theme-choose-list-container ul li div.light,
+        .setting-box .color-choose-list-container ul li div.light {
+          border: 1px solid #ddd;
+          background-color: #fff; }
+        .setting-box .theme-choose-list-container ul li div.dark,
+        .setting-box .color-choose-list-container ul li div.dark {
+          background-color: #252d3a; }
+        .setting-box .theme-choose-list-container ul li div.blue,
+        .setting-box .color-choose-list-container ul li div.blue {
+          background-color: #0078d4; }
+        .setting-box .theme-choose-list-container ul li div.red,
+        .setting-box .color-choose-list-container ul li div.red {
+          background-color: #da4453; }
+        .setting-box .theme-choose-list-container ul li div.yellow,
+        .setting-box .color-choose-list-container ul li div.yellow {
+          background-color: #f6b225; }
+        .setting-box .theme-choose-list-container ul li div.green,
+        .setting-box .color-choose-list-container ul li div.green {
+          background-color: #009688; }
+        .setting-box .theme-choose-list-container ul li div.purple,
+        .setting-box .color-choose-list-container ul li div.purple {
+          background-color: #a7296a; }
+      .setting-box .theme-choose-list-container ul li span,
+      .setting-box .color-choose-list-container ul li span {
+        position: relative;
+        left: 6px;
+        top: -8px;
+        font-size: 13px; }
+  .setting-box .bg-choose-list-container ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .setting-box .bg-choose-list-container ul li {
+      border-bottom: 1px solid #eee; }
+      .setting-box .bg-choose-list-container ul li a {
+        display: block;
+        padding: 10px;
+        color: #444;
+        text-decoration: none;
+        -moz-transition: 0.5s;
+        -o-transition: 0.5s;
+        -webkit-transition: 0.5s;
+        transition: 0.5s; }
+        .setting-box .bg-choose-list-container ul li a:hover {
+          background-color: #f0f0f0; }
+  .setting-box .options-list-container ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .setting-box .options-list-container ul li label {
+      padding: 10px;
+      margin-bottom: 0;
+      display: block;
+      cursor: pointer; }
+      .setting-box .options-list-container ul li label input {
+        float: right;
+        position: relative;
+        top: 4px; }
+
+@media (max-width: 1023px) {
+  .setting-box .hide-on-mobile {
+    display: none; } }

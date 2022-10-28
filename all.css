@@ -1,0 +1,374 @@
+body.color-blue #about .main-container .button-groups ul li a:hover {
+  background-color: #0078d4; }
+
+body.color-blue #about .main-container .content-group .title {
+  border-left: 3px solid #0078d4; }
+
+body.color-blue #about .main-container .content-group .service-container .card .card-body .icon-area .la {
+  color: #0078d4; }
+
+body.color-blue #about .main-container .content-group .pricing-container .card .card-header .icon-area .la {
+  color: #0078d4; }
+
+body.color-blue #about .main-container .content-group .pricing-container .card .card-footer a:hover {
+  background-color: #0078d4; }
+
+body.color-blue #about .main-container .content-group .fun-facts-container .card .card-body .icon-area .la {
+  color: #0078d4; }
+
+body.color-blue #about .main-container .content-group .fun-facts-container .card .card-body .text b {
+  color: #0078d4; }
+
+body.color-blue #about .main-container .content-group .testimonials-container .owl-dots .owl-dot.active {
+  background-color: #0078d4; }
+
+body.color-blue #resume .main-container .content-group .title {
+  border-left: 3px solid #0078d4; }
+
+body.color-blue #resume .main-container .content-group .coding-skills-container ul li .progress .progress-bar,
+body.color-blue #resume .main-container .content-group .personal-skills-container ul li .progress .progress-bar {
+  background-color: #0078d4; }
+
+body.color-blue #portfolio .filter .f_btn.active label {
+  color: #0078d4; }
+
+body.color-blue #portfolio .main-container .grid-items .card .card-body .image-area span {
+  background-color: #0078d4; }
+
+body.color-blue #blog .main-container .card .card-body .image-area span {
+  background-color: #0078d4; }
+
+body.color-blue #contacts .main-container .content-group .title {
+  border-left: 3px solid #0078d4; }
+
+body.color-blue #contacts .main-container .content-group .get-in-touch-container ul li i {
+  color: #0078d4; }
+
+body.color-blue #contacts .main-container .content-group .get-in-touch-container ul li span b {
+  color: #0078d4; }
+
+body.color-blue #contacts .main-container .content-group .contact-form-container .form-group .form-control:focus {
+  border-color: #0078d4; }
+  body.color-blue #contacts .main-container .content-group .contact-form-container .form-group .form-control:focus + i {
+    color: #0078d4; }
+
+body.color-blue #contacts .main-container .content-group .contact-form-container .button-area .btn-submit:hover {
+  background-color: #0078d4;
+  border-color: #0078d4; }
+
+body.color-blue header .links-area ul li.active a {
+  border-left-color: #0078d4; }
+
+body.color-blue .pages .sub-pages .section .main-container .main-desc b,
+body.color-blue .pages .sub-pages .section .main-container .main-desc strong {
+  color: #0078d4; }
+
+body.color-blue .mfp-wrap.popup-box-inline .popup-box .btn-area a:hover {
+  background-color: #0078d4; }
+
+body.color-blue .mfp-wrap.popup-box-inline .popup-box .content-area .content blockquote {
+  border-left: 3px solid #0078d4; }
+
+@media (max-width: 1023px) {
+  body.color-blue header .links-area ul li.active a {
+    border-bottom: 3px solid #0078d4; } }
+
+body.color-green #about .main-container .button-groups ul li a:hover {
+  background-color: #009688; }
+
+body.color-green #about .main-container .content-group .title {
+  border-left: 3px solid #009688; }
+
+body.color-green #about .main-container .content-group .service-container .card .card-body .icon-area .la {
+  color: #009688; }
+
+body.color-green #about .main-container .content-group .pricing-container .card .card-header .icon-area .la {
+  color: #009688; }
+
+body.color-green #about .main-container .content-group .pricing-container .card .card-footer a:hover {
+  background-color: #009688; }
+
+body.color-green #about .main-container .content-group .fun-facts-container .card .card-body .icon-area .la {
+  color: #009688; }
+
+body.color-green #about .main-container .content-group .fun-facts-container .card .card-body .text b {
+  color: #009688; }
+
+body.color-green #about .main-container .content-group .testimonials-container .owl-dots .owl-dot.active {
+  background-color: #009688; }
+
+body.color-green #resume .main-container .content-group .title {
+  border-left: 3px solid #009688; }
+
+body.color-green #resume .main-container .content-group .coding-skills-container ul li .progress .progress-bar,
+body.color-green #resume .main-container .content-group .personal-skills-container ul li .progress .progress-bar {
+  background-color: #009688; }
+
+body.color-green #portfolio .filter .f_btn.active label {
+  color: #009688; }
+
+body.color-green #portfolio .main-container .grid-items .card .card-body .image-area span {
+  background-color: #009688; }
+
+body.color-green #blog .main-container .card .card-body .image-area span {
+  background-color: #009688; }
+
+body.color-green #contacts .main-container .content-group .title {
+  border-left: 3px solid #009688; }
+
+body.color-green #contacts .main-container .content-group .get-in-touch-container ul li i {
+  color: #009688; }
+
+body.color-green #contacts .main-container .content-group .get-in-touch-container ul li span b {
+  color: #009688; }
+
+body.color-green #contacts .main-container .content-group .contact-form-container .form-group .form-control:focus {
+  border-color: #009688; }
+  body.color-green #contacts .main-container .content-group .contact-form-container .form-group .form-control:focus + i {
+    color: #009688; }
+
+body.color-green #contacts .main-container .content-group .contact-form-container .button-area .btn-submit:hover {
+  background-color: #009688;
+  border-color: #009688; }
+
+body.color-green header .links-area ul li.active a {
+  border-left-color: #009688; }
+
+body.color-green .pages .sub-pages .section .main-container .main-desc b,
+body.color-green .pages .sub-pages .section .main-container .main-desc strong {
+  color: #009688; }
+
+body.color-green .mfp-wrap.popup-box-inline .popup-box .btn-area a:hover {
+  background-color: #009688; }
+
+body.color-green .mfp-wrap.popup-box-inline .popup-box .content-area .content blockquote {
+  border-left: 3px solid #009688; }
+
+@media (max-width: 1023px) {
+  body.color-green header .links-area ul li.active a {
+    border-bottom: 3px solid #009688; } }
+
+body.color-purple #about .main-container .button-groups ul li a:hover {
+  background-color: #a7296a; }
+
+body.color-purple #about .main-container .content-group .title {
+  border-left: 3px solid #a7296a; }
+
+body.color-purple #about .main-container .content-group .service-container .card .card-body .icon-area .la {
+  color: #a7296a; }
+
+body.color-purple #about .main-container .content-group .pricing-container .card .card-header .icon-area .la {
+  color: #a7296a; }
+
+body.color-purple #about .main-container .content-group .pricing-container .card .card-footer a:hover {
+  background-color: #a7296a; }
+
+body.color-purple #about .main-container .content-group .fun-facts-container .card .card-body .icon-area .la {
+  color: #a7296a; }
+
+body.color-purple #about .main-container .content-group .fun-facts-container .card .card-body .text b {
+  color: #a7296a; }
+
+body.color-purple #about .main-container .content-group .testimonials-container .owl-dots .owl-dot.active {
+  background-color: #a7296a; }
+
+body.color-purple #resume .main-container .content-group .title {
+  border-left: 3px solid #a7296a; }
+
+body.color-purple #resume .main-container .content-group .coding-skills-container ul li .progress .progress-bar,
+body.color-purple #resume .main-container .content-group .personal-skills-container ul li .progress .progress-bar {
+  background-color: #a7296a; }
+
+body.color-purple #portfolio .filter .f_btn.active label {
+  color: #a7296a; }
+
+body.color-purple #portfolio .main-container .grid-items .card .card-body .image-area span {
+  background-color: #a7296a; }
+
+body.color-purple #blog .main-container .card .card-body .image-area span {
+  background-color: #a7296a; }
+
+body.color-purple #contacts .main-container .content-group .title {
+  border-left: 3px solid #a7296a; }
+
+body.color-purple #contacts .main-container .content-group .get-in-touch-container ul li i {
+  color: #a7296a; }
+
+body.color-purple #contacts .main-container .content-group .get-in-touch-container ul li span b {
+  color: #a7296a; }
+
+body.color-purple #contacts .main-container .content-group .contact-form-container .form-group .form-control:focus {
+  border-color: #a7296a; }
+  body.color-purple #contacts .main-container .content-group .contact-form-container .form-group .form-control:focus + i {
+    color: #a7296a; }
+
+body.color-purple #contacts .main-container .content-group .contact-form-container .button-area .btn-submit:hover {
+  background-color: #a7296a;
+  border-color: #a7296a; }
+
+body.color-purple header .links-area ul li.active a {
+  border-left-color: #a7296a; }
+
+body.color-purple .pages .sub-pages .section .main-container .main-desc b,
+body.color-purple .pages .sub-pages .section .main-container .main-desc strong {
+  color: #a7296a; }
+
+body.color-purple .mfp-wrap.popup-box-inline .popup-box .btn-area a:hover {
+  background-color: #a7296a; }
+
+body.color-purple .mfp-wrap.popup-box-inline .popup-box .content-area .content blockquote {
+  border-left: 3px solid #a7296a; }
+
+@media (max-width: 1023px) {
+  body.color-purple header .links-area ul li.active a {
+    border-bottom: 3px solid #a7296a; } }
+
+body.color-red #about .main-container .button-groups ul li a:hover {
+  background-color: #da4453; }
+
+body.color-red #about .main-container .content-group .title {
+  border-left: 3px solid #da4453; }
+
+body.color-red #about .main-container .content-group .service-container .card .card-body .icon-area .la {
+  color: #da4453; }
+
+body.color-red #about .main-container .content-group .pricing-container .card .card-header .icon-area .la {
+  color: #da4453; }
+
+body.color-red #about .main-container .content-group .pricing-container .card .card-footer a:hover {
+  background-color: #da4453; }
+
+body.color-red #about .main-container .content-group .fun-facts-container .card .card-body .icon-area .la {
+  color: #da4453; }
+
+body.color-red #about .main-container .content-group .fun-facts-container .card .card-body .text b {
+  color: #da4453; }
+
+body.color-red #about .main-container .content-group .testimonials-container .owl-dots .owl-dot.active {
+  background-color: #da4453; }
+
+body.color-red #resume .main-container .content-group .title {
+  border-left: 3px solid #da4453; }
+
+body.color-red #resume .main-container .content-group .coding-skills-container ul li .progress .progress-bar,
+body.color-red #resume .main-container .content-group .personal-skills-container ul li .progress .progress-bar {
+  background-color: #da4453; }
+
+body.color-red #portfolio .filter .f_btn.active label {
+  color: #da4453; }
+
+body.color-red #portfolio .main-container .grid-items .card .card-body .image-area span {
+  background-color: #da4453; }
+
+body.color-red #blog .main-container .card .card-body .image-area span {
+  background-color: #da4453; }
+
+body.color-red #contacts .main-container .content-group .title {
+  border-left: 3px solid #da4453; }
+
+body.color-red #contacts .main-container .content-group .get-in-touch-container ul li i {
+  color: #da4453; }
+
+body.color-red #contacts .main-container .content-group .get-in-touch-container ul li span b {
+  color: #da4453; }
+
+body.color-red #contacts .main-container .content-group .contact-form-container .form-group .form-control:focus {
+  border-color: #da4453; }
+  body.color-red #contacts .main-container .content-group .contact-form-container .form-group .form-control:focus + i {
+    color: #da4453; }
+
+body.color-red #contacts .main-container .content-group .contact-form-container .button-area .btn-submit:hover {
+  background-color: #da4453;
+  border-color: #da4453; }
+
+body.color-red header .links-area ul li.active a {
+  border-left-color: #da4453; }
+
+body.color-red .pages .sub-pages .section .main-container .main-desc b,
+body.color-red .pages .sub-pages .section .main-container .main-desc strong {
+  color: #da4453; }
+
+body.color-red .mfp-wrap.popup-box-inline .popup-box .btn-area a:hover {
+  background-color: #da4453; }
+
+body.color-red .mfp-wrap.popup-box-inline .popup-box .content-area .content blockquote {
+  border-left: 3px solid #da4453; }
+
+@media (max-width: 1023px) {
+  body.color-red header .links-area ul li.active a {
+    border-bottom: 3px solid #da4453; } }
+
+body.color-yellow #about .main-container .button-groups ul li a:hover {
+  background-color: #f6b225; }
+
+body.color-yellow #about .main-container .content-group .title {
+  border-left: 3px solid #f6b225; }
+
+body.color-yellow #about .main-container .content-group .service-container .card .card-body .icon-area .la {
+  color: #f6b225; }
+
+body.color-yellow #about .main-container .content-group .pricing-container .card .card-header .icon-area .la {
+  color: #f6b225; }
+
+body.color-yellow #about .main-container .content-group .pricing-container .card .card-footer a:hover {
+  background-color: #f6b225; }
+
+body.color-yellow #about .main-container .content-group .fun-facts-container .card .card-body .icon-area .la {
+  color: #f6b225; }
+
+body.color-yellow #about .main-container .content-group .fun-facts-container .card .card-body .text b {
+  color: #f6b225; }
+
+body.color-yellow #about .main-container .content-group .testimonials-container .owl-dots .owl-dot.active {
+  background-color: #f6b225; }
+
+body.color-yellow #resume .main-container .content-group .title {
+  border-left: 3px solid #f6b225; }
+
+body.color-yellow #resume .main-container .content-group .coding-skills-container ul li .progress .progress-bar,
+body.color-yellow #resume .main-container .content-group .personal-skills-container ul li .progress .progress-bar {
+  background-color: #f6b225; }
+
+body.color-yellow #portfolio .filter .f_btn.active label {
+  color: #f6b225; }
+
+body.color-yellow #portfolio .main-container .grid-items .card .card-body .image-area span {
+  background-color: #f6b225; }
+
+body.color-yellow #blog .main-container .card .card-body .image-area span {
+  background-color: #f6b225; }
+
+body.color-yellow #contacts .main-container .content-group .title {
+  border-left: 3px solid #f6b225; }
+
+body.color-yellow #contacts .main-container .content-group .get-in-touch-container ul li i {
+  color: #f6b225; }
+
+body.color-yellow #contacts .main-container .content-group .get-in-touch-container ul li span b {
+  color: #f6b225; }
+
+body.color-yellow #contacts .main-container .content-group .contact-form-container .form-group .form-control:focus {
+  border-color: #f6b225; }
+  body.color-yellow #contacts .main-container .content-group .contact-form-container .form-group .form-control:focus + i {
+    color: #f6b225; }
+
+body.color-yellow #contacts .main-container .content-group .contact-form-container .button-area .btn-submit:hover {
+  background-color: #f6b225;
+  border-color: #f6b225; }
+
+body.color-yellow header .links-area ul li.active a {
+  border-left-color: #f6b225; }
+
+body.color-yellow .pages .sub-pages .section .main-container .main-desc b,
+body.color-yellow .pages .sub-pages .section .main-container .main-desc strong {
+  color: #f6b225; }
+
+body.color-yellow .mfp-wrap.popup-box-inline .popup-box .btn-area a:hover {
+  background-color: #f6b225; }
+
+body.color-yellow .mfp-wrap.popup-box-inline .popup-box .content-area .content blockquote {
+  border-left: 3px solid #f6b225; }
+
+@media (max-width: 1023px) {
+  body.color-yellow header .links-area ul li.active a {
+    border-bottom: 3px solid #f6b225; } }
