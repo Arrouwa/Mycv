@@ -1,0 +1,70 @@
+<?php 
+include'connect.php';
+ $id=$_GET['add2'];
+ if(isset($_POST['nextstep'])){
+	 $classxx=$_POST['classxx'];
+	 $boardingname=$_POST['boardingname'];
+	 $percentage=$_POST['percentage'];
+	 $passingyear=$_POST['passingyear'];
+	 $applying=$_POST['applying'];
+	 $update="update student set classxx='$classxx',boardingname='$boardingname',percentage='$percentage',applyingcourse='$applying',yearpassing='$passingyear' where sid=$id";
+	 if(mysqli_query($con,$update)){
+		 $update1="update user set status='done' where uid=$id";
+		 mysqli_query($con,$update1);
+		 header("location:review?studentid=$id");
+	 }
+	 
+ }
+?>
+<html>
+<head>
+<title>Student page</title>
+<link rel="stylesheet" href='css/student.css'>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+<div class='container1'>
+<div class='logo1'></div>
+<div class='nav1' >
+<ul>
+<li><a href="">Dashboard</a></li>
+<li><a href="review">apply school</a></li>
+<li><a href="">login out</a></li>
+</ul>
+</div>
+<div class='content1' >
+<form style="width:55%;margin:auto" method='post'>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Class xx</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="enter class xx"  name='classxx'>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">boarding name</label>
+    <input type="text" class="form-control" name="boardingname" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="enter boarding name" >
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Pecentage</label>
+    <input type="number" class="form-control" name="percentage" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="enter percentage" >
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Passing year</label>
+    <input type="date" class="form-control" name="passingyear" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="enter passing year">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputPassword1">Course Applying for</label>
+	<select class="form-control" name='applying'>
+	<option>Diplome</option>
+	<option>Degree</option>
+	<option>Masters</option>
+	<option>Phd</option>
+	</select>
+  </div>
+
+  <input type="submit" class="btn btn-primary" name="nextstep" value="next step"></input>
+</form>
+</div>
+<div class='footer1' ></div>
+</div>
+</body>
+</html>
