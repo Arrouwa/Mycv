@@ -1,0 +1,25 @@
+.fa-youtube{
+    width: 30px;
+    height: 30px;
+    color: red;
+    align-items: center;
+    padding: 50px;
+    
+}
+.fa-twitter{
+    width: 20px;
+    height: 20px;
+    color: cadetblue;
+    margin-left: 40px;
+}
+.fa-instagram{
+    width: 30px;
+    height: 30px;
+    color: red;
+    margin: 40px;
+    margin-left: 40px;
+}
+body{
+    align-items: center;
+    background-color: #cecece;
+}
