@@ -1,0 +1,54 @@
+@media only screen and (max-width: 400px) {
+  .buttons {
+    gap: 5px 5px;
+    /* padding: 0px 9px 0px 15px; */
+    /* align-items: center; */
+    justify-content: center;
+  }
+
+  .btn {
+    width: 80px;
+    height: 80px;
+    font-size: 37px;
+  }
+
+  #resultBox {
+    margin: 0px 1px 7px 0px;
+    width: 20rem;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .buttons {
+    gap: 4px;
+  }
+
+  .btn {
+    width: 75px;
+    height: 75px;
+    font-size: 32px;
+  }
+
+  #resultBox {
+    margin: 0px 0px 7px 0px;
+    width: 85%;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .buttons {
+    gap: 4px;
+    padding: 0px 9px 0px 9px;
+  }
+
+  .btn {
+    width: 65px;
+    height: 65px;
+    font-size: 32px;
+  }
+
+  #resultBox {
+    margin: 0px 2px 7px 0px;
+
+    width: 90%;
+  }
+}

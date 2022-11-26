@@ -1,106 +1,79 @@
-body{
-	margin: 0;
-	padding: 0;
-	font-family: montserrat;
-	background: linear-gradient(70deg,#5dade2 ,  #a04000 );
-	height: 100vh;
-	overflow: hidden;
-}
-.content{
-	position: absolute;
-	top: -10%;
-	left: 50%;
-	transform: translate(-50%,50%);
-	width: 400px;
-	background: #f1f1f1;
-	border-radius: 10px 0px 10px 0px;
-}
-.content h2{
-	text-align: center;
-	padding: 0 0 20px 0;
-	border-bottom: 1px solid #239b56;
-}
-.content form{
-	padding: 0 40px;
-	box-sizing: border-box;
-}
-form .txt_field{
-	position: relative;
-	border-bottom: 2px solid #239b56;
-	margin: 30px 0;
-}
-form input{
-	width: 100%;
-	height: 40px;
-	padding: 0 5px;
-	font-size: 16px;
-	border: none;
-	outline: none;
-	background: transparent;
-}
-.txt_field label{
-	position: absolute;
-	top: 50%;
-	left: 5px;
-	color: #239b56;
-	transform: translateY(-50%);
-	font-size: 16px;
-	pointer-events: none;
-}
-.txt_field span::before{
-	content: '';
-	position: absolute;
-	top: 40px;
-	left: 0;
-	width: 100%;
-	background: #239b56;
-	transition: .5s;
+body,
+html {
+    background-image: linear-gradient(140deg, rgb(37, 150, 190) 0%, rgb(51, 255, 87) 50%, rgb(112 0 98 / 63%) 75%);
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    background-position: center;
+    align-items: center;
+    display: flex;
 
-}
-.txt_field input:focus ~ label,
-.txt_field input:valid ~ label{
-	top: -5px;
-	color: #239b56;
-}
-.txt_field input:focus ~ span::before,
-.txt_field input:valid ~ span::before{
-	width: 100%;
-}
-.pass{
-	margin: -5px 0 20px 5px;
-	color: #239b56;
-	cursor: pointer;
-}
-.pass:hover{
-	text-decoration: underline;
-}
-input[type="submit"]{
-	width: 100%;
-	height: 40px;
-	border: 1px solid #239b56;
-	background: royalblue;
-	color: white;
-	font-size: 18px;
-	font-weight: 700;
-	cursor: pointer;
-	outline: none;
-}
-input[type="submit"]:hover{
-	border-color: royalblue;
-	transition: .5s;
-}
-.signup_link{
-	margin: 30px 0;
-	text-align: center;
-	font-size: 16px;
-	color: #666666;
-}
-.signup_link a{
-	color: #2691d9;
-	text-decoration: none;
-}
-.signup_link a: hover{
-	text-decoration: underline;
+    width: 100%;
 }
 
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 8px;
+}
 
+.btn {
+    width: 91px;
+    height: 91px;
+    font-size: 42px;
+    color: rgb(255 255 255);
+    border-radius: 4px;
+    background: rgb(255 255 255 / 14%);
+    border: 1px solid rgb(255 255 255 / 14%);
+
+}
+
+.btn:hover {
+    background-color: rgb(255 255 255 / 73%);
+    border: 2px solid rgb(255 255 255);
+    color: rgb(0 0 0);
+}
+
+.container {
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    margin-top: 140px;
+}
+
+#resultBox {
+    border-radius: 4px;
+    margin: 0px 0px 7px 0px;
+    background-color: rgb(255 255 255 / 26%);
+    border: 1px solid rgb(255 255 255);
+    padding: 0px 0px 0px 10px;
+    color: rgb(255 255 255);
+    width: 97%;
+    height: 4rem;
+    font-size: 31px;
+}
+
+.result {
+    width: 183px;
+    height: 48px;
+    margin: 10px 0px 0px 0px;
+    font-size: 30px;
+}
+
+#result {
+    margin: 8px 0px 0px 0px;
+    width: 12rem;
+    height: 3rem;
+    font-size: 30px;
+    background-color: rgb(255 255 255 / 73%);
+    border: 1px solid rgb(255 255 255);
+    color: rgb(0 0 0);
+    border-radius: 5px;
+}
+
+#result:hover {
+    color: rgb(255 255 255);
+
+    background: rgba(255, 255, 255, 0.401);
+    border: 1px solid rgb(255 255 255 / 14%);
+}
